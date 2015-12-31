@@ -1,9 +1,7 @@
-'use strict';
-var test = require('ava');
-var x = require('./');
+import test from 'ava';
+import x from './';
 
-test(function (t) {
-	t.assert(x[200] === 'OK');
-	t.assert(x[500] === 'Internal Server Error');
-	t.end();
+test(t => {
+	t.is(x[200], 'OK');
+	t.is(x[500], 'Internal Server Error');
 });
