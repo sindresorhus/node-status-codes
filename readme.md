@@ -1,10 +1,10 @@
 # node-status-codes [![Build Status](https://travis-ci.org/sindresorhus/node-status-codes.svg?branch=master)](https://travis-ci.org/sindresorhus/node-status-codes)
 
-> Node.js `http.STATUS_CODES` ponyfill
+> Node.js [`http.STATUS_CODES`](https://nodejs.org/api/http.html#http_http_status_codes) [ponyfill](https://ponyfill.com)
 
 > Ponyfill: A polyfill that doesn't overwrite the native method
 
-The built-in list of HTTP status codes [differ](https://github.com/nodejs/io.js/commit/8be6060020) between Node.js versions, so this is a good way to make sure it's consistent. Will be kept up to date with latest Node.js.
+The built-in list of HTTP status codes [differ](https://github.com/nodejs/node/commit/8be6060020) between Node.js versions, so this is a good way to make sure it's consistent. Will be kept up to date with latest Node.js.
 
 
 ## Install
