@@ -1,3 +1,9 @@
+# Deprecated
+
+This package is no longer relevant. The `http.STATUS_CODES` property is stable now.
+
+---
+
 # node-status-codes [![Build Status](https://travis-ci.org/sindresorhus/node-status-codes.svg?branch=master)](https://travis-ci.org/sindresorhus/node-status-codes)
 
 > Node.js [`http.STATUS_CODES`](https://nodejs.org/api/http.html#http_http_status_codes) [ponyfill](https://ponyfill.com)
